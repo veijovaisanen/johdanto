@@ -1,0 +1,500 @@
+   70  git commit -m "Merge conflict solved"
+   71  git branch -d b1
+   72  git branch 
+   73  git oush origin master
+   74  git push origin master
+   75  git branch b2
+   76  git add .
+   77  git commit -m "belt as X"
+   78  git checkout b2
+   79  git add .
+   80  git commit -m "belt as O"
+   81  git checkout master
+   82  git merge b2 -m "merge"
+   83  git branch -d b2
+   84  git add .
+   85  git commit -m "Merge solved"
+   86  git branch -d b2
+   87  git poush origin master
+   88  git push origin master
+   89  dir
+   90  git add .
+   91  git commit -m "Added new file"
+   92  git push origin master
+   93  cd ..
+   94  dir
+   95  mkdir Lab42
+   96  cd lab42
+   97  dir
+   98  git init
+   99  git remote add origin https://github.com/veijovaisanen/Lab41.git
+  100  git pull origin master
+  101  dir
+  102  git add .
+  103  git commit -m "Author added"
+  104  git push origin master
+  105  cd ..
+  106  cd Lab41
+  107  git pull origin master
+  108  git branch b1
+  109  git checkout -b b1
+  110  git add .
+  111  git commit -m "Added method changeBalance"
+  112  git oush origin master
+  113  git push origin master
+  114  git push origin b1
+  115  cd ..
+  116  cd Lab42
+  117  git pull origin b1
+  118  git checkout b1
+  119  git checkout master
+  120  git checkout -b b1
+  121  git checkout  b1
+  122  dir
+  123  git add .
+  124  git commit -m "Added changePrice"
+  125  git push origin b1
+  126  git pull origin b1
+  127  cd ..
+  128  cd Lab41
+  129  git pull origin b1
+  130  git add .
+  131  git commit -m "Conflict solved"
+  132  git push origin b1
+  133  git push origin b1
+  134  git pull origin b1
+  135  git push origin b1
+  136  git branch
+  137  git checkout b1
+  138  git checkout master
+  139  git branch -d b1
+  140  git add .
+  141  git commit -m "Back to basic"
+  142  git push origin master
+  143  git branch
+  144  cd ..
+  145  cd  Lab42
+  146  dir
+  147  git branch
+  148  git checkout master
+  149  git branch -d b1
+  150  git branch
+  151  cd ..
+  152  cd Lab41
+  153  git checkout -b b1
+  154  git branch
+  155  git add .
+  156  git commit -m "Added changeBalance"
+  157  git push origin b1
+  158  cd ..
+  159  cd Lab42
+  160  git pull origin b1
+  161  git branch
+  162  git checkout -b b1
+  163  git branch
+  164  cd ..
+  165  cd Lab41
+  166  cd ..
+  167  cd Lab42
+  168  git add .
+  169  git commit -m "Added changePrice"
+  170  git oush origin b1
+  171  git push origin b1
+  172  git branch
+  173  git checkout -b master
+  174  git checkout  master
+  175  git branch
+  176  git branch -d b1
+  177  git branch -D b1
+  178  git branch
+  179  git pull origin master
+  180  cd ..
+  181  cd Lab41
+  182  git branch
+  183  git checkout  master
+  184  git branch
+  185  git branch -D b1
+  186  git branch
+  187  git pull origin master
+  188  ssh-keygen -t rsa -b 4096 -C
+  189  ssh-keygen -t rsa -b 4096 -C
+  190  ssh-keygen -t rsa -b 4096 
+  191  eval "$(ssh-agent -s)"
+  192  ssh-add ~/.ssh/id_rsa
+  193  clip < ~/.ssh/id_rsa.pub
+  194  cd /c/Users/vvaisan/SWPExample1
+  195  git init 
+  196  git add .
+  197  git commit -m "First commit"
+  198  git remote add origin https://github.com/veijovaisanen/SWPExample1.git
+  199  git remote -v
+  200  git push origin master
+  201  git push origin master
+  202  git push origin master
+  203  git add .
+  204  git commit -m "Added a line"
+  205  show history
+  206  git show history
+  207  git history
+  208  git --help
+  209  git show
+  210  git push origin master
+  211  git checkout 6c620c1cae090b5095a9fe66fe6e3466052cb4e9
+  212  git checkout master
+  213  git branch b1
+  214  git branch
+  215  git add
+  216  git commit -m "Added muutos in eof line 2"
+  217  git checkout b1
+  218  git branch b1
+  219  git branch 
+  220  dir
+  221  cat myfile.txt 
+  222  git branch 
+  223  git checkout master
+  224  git branch 
+  225  git add
+  226  git add .
+  227  git commit -m "reset"
+  228  git add .
+  229  git commit -m "Added muutos"
+  230  git checkout b1
+  231  git branch
+  232  git add .
+  233  git commit -m "Added branch1"
+  234  git checkout master
+  235  git merge b1 -m "merge"
+  236  git add .
+  237  git commit -m "merge conflict"
+  238  git branch -d b1
+  239  git branch
+  240  git branch b2
+  241  git branch
+  242  git add .
+  243  git commit -m "master"
+  244  git checkout b2
+  245  git branch
+  246  git add .
+  247  git commit -m "branch2"
+  248  git branch
+  249  git checkout master
+  250  git branch
+  251  git merge b2 -m "merge"
+  252  git add .
+  253  git commit -m "conflict"
+  254  git push origin master
+  255  ssh-keygen -t rsa -b 4096 
+  256  eval "$(ssh-agent -s)"
+  257  ssh-add ~/.ssh/id_rsa
+  258  clip < ~/.ssh/id_rsa.pub
+  259  cd ..
+  260  cd Lab421
+  261  git init
+  262  git add .
+  263  git commit -m "2st commit"
+  264  git remote add origin https://github.com/veijovaisanen/Lab42.git
+  265  git push origin master
+  266  git pull origin master
+  267  git branch b1
+  268  gir branch
+  269  git branch
+  270  git checkout b1
+  271  git branch
+  272  git add .
+  273  git commit -m "Added changeBalance method"
+  274  git push origin b1
+  275  git branch
+  276  git checkout master
+  277  git branch
+  278  git branch -d b1
+  279  git branch -D b1
+  280  git origin pull master
+  281  git pull origin master
+  282  cd /c/Users/vvaisan/Lab422
+  283  git init
+  284  git remote add origin https://github.com/veijovaisanen/Lab42.git
+  285  git pull origin master
+  286  dir
+  287  git add .
+  288  git commit -m "Added author name"
+  289  git push origin master
+  290  git pull branch b1
+  291  git branch
+  292  git pull origin b1
+  293  git branch
+  294  git checkout -b b1
+  295  git branch
+  296  git add .
+  297  git commit -m "Added changePrice"
+  298  git push origin b1
+  299  git branch
+  300  git checkout master
+  301  git branch
+  302  git branch -D b1
+  303  git pull origin master
+  304  history
+  305  ls
+  306  history
+  307  git help
+  308  history
+  309  history > loki.log
+  310  eval "$(ssh-agent -s)"
+  311  cd /c/Users/vvaisan/repo2
+  312  ls
+  313  git remote add origin https://github.com/veijovaisanen/test.git
+  314  git pull origin master
+  315  ls
+  316  git init
+  317  git remote add origin https://github.com/veijovaisanen/test.git
+  318  git pull origin master
+  319  ls
+  320  ssh-keygen -t rsa -b 4096 -C
+  321  ssh-keygen -t rsa -b 4096
+  322  eval "$(ssh-agent -s)"
+  323  ssh-add ~/.ssh/id_rsa
+  324  clip < ~/.ssh/id_rsa.pub
+  325  cd /c/Users/vvaisan/repo1
+  326  ls
+  327  git init
+  328  git add .
+  329  git commit -m "First commit"
+  330  git remote add origin https://github.com/veijovaisanen/test.git
+  331  git remote -v
+  332  git push origin master
+  333  git branch b1
+  334  git branch 
+  335  git add .
+  336  git commit -m "Longer cat"
+  337  git checkout branch b1
+  338  git checkout b1
+  339  git branch
+  340  git add .
+  341  git commit -m "Longer cat"
+  342  git checkout master
+  343  git branch
+  344  git merge b1 -m "Merge"
+  345  git branch -d b1
+  346  history
+  347  git push origin master
+  348  git branch b2
+  349  git add .
+  350  git commit -m "Belt as I"
+  351  git checkout master
+  352  git checkout b2
+  353  git add .
+  354  git commit -m "Belt as X"
+  355  git checkout master
+  356  git merge b2 -m "Merge belt"
+  357  git add .
+  358  git commit -m "Merge resolved"
+  359  git branch -d b2
+  360  git push origin master
+  361  ls
+  362  git add .
+  363  git commit -m "Added java file"
+  364  git oush origin master
+  365  git push origin master
+  366  git pull origin master
+  367  git branch b1
+  368  git checkout b1
+  369  git branch 
+  370  git add .
+  371  git commit -m "Added changeBalance method"
+  372  git push origin b1
+  373  git branch
+  374  git push origin b1
+  375  git branch -d b1
+  376  git checkout master
+  377  git branch -d b1
+  378  git branch
+  379  git branch -d b1
+  380  git branch -D b1
+  381  git branch
+  382  git add .
+  383  git commit -m "Added method"
+  384  git branch
+  385  git branch b1
+  386  gir checkout b1
+  387  git checkout b1
+  388  git push origin b1
+  389  git status
+  390  git pull origin b1
+  391  git checkout master
+  392  git merge b1 -m "merge"
+  393  git push origin master
+  394  git branch
+  395  git branch
+  396  git pull origin master
+  397  git pull origin master
+  398  cd /c/Users/vvaisan/repo2
+  399  ls
+  400  git pull origin master
+  401  la
+  402  ls
+  403  git add .
+  404  git commit -m "Added author"
+  405  git push origin master
+  406  git branch b1
+  407  git checkout b1
+  408  git pull origin master
+  409  ls
+  410  git add .
+  411  git commit -m "Added changePrice method"
+  412  git branch
+  413  git push origin b1
+  414  git branch
+  415  git pull origin b1
+  416  git add .
+  417  git commit -m "Merge"
+  418  git push origin b1
+  419  git branch
+  420  git checkout master
+  421  git add .
+  422  git commit -m "a"
+  423  git checkout master
+  424  git branch -d b1
+  425  git branch -D b1
+  426  git branch b1
+  427  git checkout b1
+  428  git pull origin b1
+  429  git add .
+  430  git commit -m "Added price method"
+  431  git push origin b1
+  432  git pull origin b1
+  433  git status
+  434  git fetch origin
+  435  git checkout -b b1 origin/b1
+  436  git merge master
+  437  git branch
+  438  git pull origin b1
+  439  git fetch origin
+  440  git checkout -b b1 origin/b1
+  441  git merge master
+  442  git checkout master
+  443  git merge --no-ff b1
+  444  git push origin master
+  445  git branch
+  446  git pull origin master
+  447  git push origin master
+  448  git add .
+  449  git commit -m "merge resolved"
+  450  git push origin master
+  451  history
+  452  cd /c/Users/vvaisan/repo1
+  453  ls
+  454  cd /c/Users/vvaisan/myrepo1
+  455  ls
+  456  git init
+  457  git remote add origin https://github.com/veijovaisanen/test.git
+  458  la
+  459  ls
+  460  git add .
+  461  git commit -m "Original file"
+  462  git push origin master
+  463  git pull origin master
+  464  git push origin master
+  465  git branch b1
+  466  git checkout b1
+  467  git branch 
+  468  git add .
+  469  git commit -m "Added a new method to change balance"
+  470  git push origin b1
+  471  git branch
+  472  git checkout
+  473  git checkout master
+  474  git pull origin master
+  475  git fetch master
+  476  git fetch origin master
+  477  git checkout master
+  478  cd /c/Users/vvaisan/myrepo2
+  479  ls
+  480  git init
+  481  git remote add origin https://github.com/veijovaisanen/test.git
+  482  ls
+  483  git pull origin master
+  484  ls
+  485  git branch b1
+  486  git checkout b1
+  487  git add .
+  488  git commit -m "Adden changePrice method"
+  489  git push origin b1
+  490  git pull origin b1
+  491  git push origin b1
+  492  git add .
+  493  git commit -m "Merge resolved"
+  494  git push origin b1
+  495  git branch
+  496  git chckout master
+  497  git checkout master
+  498  git pull origin master
+  499  ls
+  500  cat myJava1.java 
+  501  ssh-keygen -t rsa -b 4096
+  502  eval "$(ssh-agent -s)"
+  503  ssh-add ~/.ssh/id_rsa
+  504  cd /c/Users/vvaisan/repo
+  505  ls
+  506  git init
+  507  ls
+  508  git add .
+  509  git commit -m "New file"
+  510  git remote add origin https://github.com/veijovaisanen/johdanto.git
+  511  git remote -v
+  512  git push origin master
+  513  help
+  514  git help
+  515  git log
+  516  git branch
+  517  git remote show origin
+  518  git help
+  519  git status
+  520  git status
+  521  git add .
+  522  git status
+  523  git commit -m "Added a line"
+  524  git status
+  525  git log
+  526  git help
+  527  git log
+  528  git push origin master
+  529  git history
+  530  git checkout 
+  531  git checkout 2899b3daf2af8688a36d687265eeeadd0cc4abcf
+  532  git checkout master
+  533  git branch b1
+  534  git branch 
+  535  git add .
+  536  git commit -m "Added line 5"
+  537  git checkout b1
+  538  git branch
+  539  git add .
+  540  git commit -m "Added line 0"
+  541  git branch
+  542  git checkout master
+  543  git merge b1 -m "Merge to master"
+  544  git branch -d b1
+  545  git branch 
+  546  git push origin master
+  547  git branch b2
+  548  git add .
+  549  git commit -m "Added master to eof line 0"
+  550  git branch b1
+  551  git branch 
+  552  git checkout b2
+  553  git branch -D b1
+  554  git branch 
+  555  git add .
+  556  git commit -m "Added b2 in eof line 0"
+  557  git checkout master
+  558  git branch
+  559  git merge b2 -m "Merge with master"
+  560  git add .
+  561  git commit -m "Conflict resolved"
+  562  git branch -d b2
+  563  git branch
+  564  #comment
+  565  git log
+  566  history
+  567  #Tässä viedään GITHUB serverille kopio
+  568  history
+  569  history >myhistory
